@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pl.pharmaway.rimantin_presentation"
+    >
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:name="pl.pharmaway.rimantin_presentation.MultilacApplication"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="pl.pharmaway.rimantin_presentation.entry.EntryActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="pl.pharmaway.rimantin_presentation.quiz.QuizActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity
+            android:name="pl.pharmaway.rimantin_presentation.form.FormActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity
+            android:name="pl.pharmaway.rimantin_presentation.sending.SendActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+        <activity
+            android:name="pl.pharmaway.rimantin_presentation.video.VideoActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="landscape">
+
+        </activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="89651a3119a0d5a5f3f5b7e45103a65505c98a64" />
+    </application>
+</manifest>

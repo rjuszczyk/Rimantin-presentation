@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/form_bg" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:fillViewport="true"
+        android:scrollbarStyle="outsideOverlay">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/form_container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="120dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/uzupelnij_dane" />
+
+                    <TextView
+                        android:id="@+id/przedst"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="15dp"
+                        android:background="@drawable/background_expandable"
+                        android:gravity="center|left"
+                        android:paddingLeft="@dimen/form_text_padding"
+                        android:text="Przedstawiciel Medyczny"
+                        android:textColor="@color/gray_text"
+                        android:textSize="@dimen/form_text_size" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/miasto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="15dp"
+                            android:background="@drawable/background_expandable"
+                            android:gravity="center|left"
+                            android:paddingLeft="@dimen/form_text_padding"
+                            android:text="Miasto"
+                            android:textColor="@color/gray_text"
+                            android:textSize="@dimen/form_text_size" />
+
+                        <TextView
+                            android:id="@+id/apteka"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="15dp"
+                            android:background="@drawable/background_expandable"
+                            android:gravity="center|left"
+                            android:paddingLeft="@dimen/form_text_padding"
+                            android:text="Apteka"
+                            android:textColor="@color/gray_text"
+                            android:textSize="@dimen/form_text_size" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="15dp"
+                            android:background="@drawable/background"
+                            android:gravity="center|left"
+                            android:paddingLeft="@dimen/form_text_padding"
+                            android:text="Liczba uczestników prezentacji"
+                            android:textColor="@color/gray_text"
+                            android:textSize="@dimen/form_text_size" />
+
+                        <EditText
+                            android:id="@+id/participantNumber"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+
+                            android:layout_margin="15dp"
+                            android:background="@drawable/background_small"
+                            android:gravity="center|left"
+                            android:imeOptions="actionNext"
+                            android:inputType="numberDecimal"
+                            android:nextFocusForward="@+id/telefon"
+                            android:paddingLeft="@dimen/form_text_padding"
+                            android:enabled="false"
+                            android:singleLine="true"
+                            android:textColor="@color/gray_text"
+
+                            android:textSize="@dimen/form_text_size" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <FrameLayout
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@id/form_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:id="@+id/dalej"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="@dimen/bottom_buttons_margin"
+                        android:background="@drawable/send_button" />
+
+                    <ImageButton
+                        android:id="@+id/main_page"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|bottom"
+                        android:layout_marginBottom="@dimen/bottom_buttons_margin"
+                        android:background="@drawable/main_page_button" />
+                </FrameLayout>
+
+            </RelativeLayout>
+        </FrameLayout>
+    </ScrollView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/top_bar"
+        android:layout_gravity="top"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="80dp"
+        android:src="@drawable/form_note"/>
+</FrameLayout>

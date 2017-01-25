@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/page4"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:id="@+id/page4_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/page4_top"
+        android:layout_marginTop="170dp"
+        android:layout_gravity="center|top"
+        />
+
+    <FrameLayout
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_gravity="center"
+        >
+        <include layout="@layout/angle_text"
+            android:id="@+id/angle_text"
+            />
+    </FrameLayout>
+
+    <View
+        android:id="@+id/black_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        android:alpha="0"/>
+
+    <FrameLayout
+        android:id="@+id/video_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:translationY="20dp"
+        android:layout_gravity="center">
+        <com.sprylab.android.widget.TextureVideoView
+            android:id="@+id/video_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            />
+        <ImageView
+            android:id="@+id/frame1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/frame1"
+            android:alpha="1"/>
+        <ImageView
+            android:id="@+id/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/play"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/next_button"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="@dimen/bottom_buttons_margin"/>
+
+    <ImageButton
+        android:id="@+id/main_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_page_button"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="@dimen/bottom_buttons_margin"/>
+</FrameLayout>

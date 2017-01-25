@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/page7"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:id="@+id/page7_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/page7_left"
+        android:layout_marginLeft="35dp"
+        android:layout_gravity="center|left"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center|right"
+        android:layout_marginRight="35dp"
+        >
+        <ImageView
+            android:id="@+id/page7_right1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/page7_right1"
+            android:layout_gravity="left"
+            android:layout_margin="10dp"
+            />
+        <ImageView
+            android:id="@+id/page7_right2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/page7_right2"
+            android:layout_gravity="left"
+            android:layout_margin="10dp"
+            />
+        <ImageView
+            android:id="@+id/page7_right3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/page7_right3"
+            android:layout_gravity="left"
+            android:layout_margin="10dp"
+            />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:layout_gravity="center"
+        >
+        <include layout="@layout/angle_text"
+            android:id="@+id/angle_text"
+            />
+    </FrameLayout>
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/page7_mini_info"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="6dp"
+        android:layout_gravity="left|bottom"
+        />
+
+    <ImageButton
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/next_button"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="@dimen/bottom_buttons_margin"/>
+
+    <ImageButton
+        android:id="@+id/main_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_page_button"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="@dimen/bottom_buttons_margin"/>
+</FrameLayout>

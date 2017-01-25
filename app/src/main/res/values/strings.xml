@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Rimantin 2017</string>
+    <string name="retry">Ponów próbę</string>
+    <string name="go_to_form">Go to form</string>
+    <string name="search">Szukaj</string>
+    <string name="goNext">Wyślij później</string>
+</resources>
