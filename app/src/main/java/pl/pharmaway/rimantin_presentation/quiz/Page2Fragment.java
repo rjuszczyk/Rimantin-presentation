@@ -18,35 +18,12 @@ public class Page2Fragment extends BaseFragment {
         View view = inflater.inflate(R.layout.fragment_page2, container, false);;
         ButterKnife.bind(this, view);
 
-        view.findViewById(R.id.zaufanie).setOnClickListener(new AnimationOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ((QuizActivity)getActivity()).goToPage3();
-            }
-        }));
-
-        view.findViewById(R.id.techonologia).setOnClickListener(new AnimationOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ((QuizActivity)getActivity()).goToPage4();
-            }
-        }));
-
-        view.findViewById(R.id.badania).setOnClickListener(new AnimationOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ((QuizActivity)getActivity()).goToPage5();
-            }
-        }));
-
-        view.findViewById(R.id.pacjent).setOnClickListener(new AnimationOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ((QuizActivity)getActivity()).goToPage6();
-            }
-        }));
-
         return view;
+    }
+
+    @OnClick(R.id.back)
+    void onBackButton() {
+        getActivity().onBackPressed();
     }
 
     @OnClick(R.id.next)

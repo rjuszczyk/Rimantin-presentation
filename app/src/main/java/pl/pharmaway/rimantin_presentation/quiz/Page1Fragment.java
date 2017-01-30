@@ -33,16 +33,7 @@ public class Page1Fragment extends BaseFragment {
         SharedPreferences sharedPreferences = getContext().getSharedPreferences("Multilac-1-min.prefs", Context.MODE_PRIVATE);
         int v=sharedPreferences.getInt("version",0);
         mVersionNumber.setText("v="+v);
-
-        final Animation number1animation = AnimationUtils.loadAnimation(getContext(), R.anim.number1animation);
-        number1animation.setRepeatCount(Animation.INFINITE);
-
-        mFlag.startAnimation(number1animation);
     }
-
-    @BindView(R.id.flag)
-    View mFlag;
-
 
     @OnClick(R.id.next)
     void goToPage2() {

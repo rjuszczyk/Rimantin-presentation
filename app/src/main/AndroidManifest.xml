@@ -47,6 +47,11 @@
             android:screenOrientation="landscape">
 
         </activity>
+        <activity
+            android:name=".regulamin.RegulaminActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="landscape" />
+        >
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="89651a3119a0d5a5f3f5b7e45103a65505c98a64" />

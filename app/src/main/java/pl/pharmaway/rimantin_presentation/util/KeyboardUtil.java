@@ -10,10 +10,12 @@ import android.view.inputmethod.InputMethodManager;
 public class KeyboardUtil {
     private View decorView;
     private View contentView;
+    private View logoView;
 
-    public KeyboardUtil(Activity act, View contentView) {
+    public KeyboardUtil(Activity act, View contentView, View logoView) {
         this.decorView = act.getWindow().getDecorView();
         this.contentView = contentView;
+        this.logoView = logoView;
 
         //only required on newer android versions. it was working on API level 19
         if (Build.VERSION.SDK_INT >= 19) {
@@ -53,12 +55,14 @@ public class KeyboardUtil {
                 if (contentView.getPaddingBottom() != diff) {
                     //set the padding of the contentView for the keyboard
                     contentView.setPadding(0, 0, 0, diff);
+                    logoView.animate().alpha(0).start();
                 }
             } else {
                 //check if the padding is != 0 (if yes reset the padding)
                 if (contentView.getPaddingBottom() != 0) {
                     //reset the padding of the contentView
                     contentView.setPadding(0, 0, 0, 0);
+                    logoView.animate().alpha(1).start();
                 }
             }
         }

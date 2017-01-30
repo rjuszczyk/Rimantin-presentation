@@ -3,7 +3,8 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="dialog_text_padding">8dp</dimen>
-    <dimen name="bottom_buttons_margin">16dp</dimen>
+    <dimen name="bottom_buttons_margin">36dp</dimen>
     <dimen name="form_text_padding">16dp</dimen>
     <dimen name="form_text_size">18sp</dimen>
+    <dimen name="bottom_show_pdf_margin">100dp</dimen>
 </resources>

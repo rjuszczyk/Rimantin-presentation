@@ -10,8 +10,9 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/page2"
+        android:src="@drawable/basic_bg"
         />
+
 
     <LinearLayout
         android:layout_width="wrap_content"

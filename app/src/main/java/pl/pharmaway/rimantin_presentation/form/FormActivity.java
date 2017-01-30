@@ -95,7 +95,7 @@ public class FormActivity extends AppCompatActivity implements
         ButterKnife.bind(this);
 
 
-        KeyboardUtil keyboardUtil = new KeyboardUtil(this, findViewById(R.id.content));
+        KeyboardUtil keyboardUtil = new KeyboardUtil(this, findViewById(R.id.content), findViewById(R.id.logo));
         //enable it
         keyboardUtil.enable();
 
@@ -103,6 +103,8 @@ public class FormActivity extends AppCompatActivity implements
         mApteka.setEnabled(false);
 
         mParticipantNumber.setEnabled(false);
+
+
 
         mPrzedstawicielMedyczny.setOnClickListener(new View.OnClickListener() {
 

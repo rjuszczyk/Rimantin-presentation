@@ -7,90 +7,49 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/page3"
+        android:src="@drawable/p3"
         android:scaleType="fitXY"/>
 
-    <ImageView
-        android:id="@+id/women"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/women"
-        android:layout_gravity="bottom|left"
-        />
-    <ImageView
-        android:id="@+id/boxes"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/boxes"
-        android:layout_marginTop="240dp"
-        android:layout_marginLeft="224dp"/>
 
-    <ImageView
-        android:id="@+id/cloud1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/cloud1"
-        android:layout_marginTop="145dp"
-        android:layout_marginLeft="550dp"/>
 
-    <ImageView
-        android:id="@+id/cloud1_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/cloud1_txt"
-        android:layout_marginTop="145dp"
-        android:layout_marginLeft="550dp"/>
-
-    <ImageView
-        android:id="@+id/cloud2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/cloud2"
-        android:layout_marginTop="383dp"
-        android:layout_marginLeft="610dp"/>
-
-    <ImageView
-        android:id="@+id/cloud2_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/cloud2_txt"
-        android:layout_marginTop="383dp"
-        android:layout_marginLeft="610dp"/>
-
-    <ImageView
-        android:id="@+id/cloud3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/cloud3"
-        android:layout_marginTop="490dp"
-        android:layout_marginLeft="255dp"/>
-    <ImageView
-        android:id="@+id/cloud3_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/cloud3_txt"
-        android:layout_marginTop="490dp"
-        android:layout_marginLeft="255dp"/>
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/prszypis"
-        android:layout_gravity="bottom|center"/>
-
-    <ImageButton
+    <View
         android:id="@+id/next"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/next_button"
+        android:layout_width="170dp"
+        android:layout_height="58dp"
         android:layout_gravity="right|bottom"
-        android:layout_marginBottom="@dimen/bottom_buttons_margin"/>
+        android:layout_marginBottom="@dimen/bottom_buttons_margin"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        />
 
-    <ImageButton
+    <View
         android:id="@+id/main_page"
+        android:layout_width="170dp"
+        android:layout_height="58dp"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="@dimen/bottom_buttons_margin"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        />
+
+    <Button
+        android:id="@+id/show_pdf"
+        android:layout_width="170dp"
+        android:layout_height="18dp"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="@dimen/bottom_show_pdf_margin"
+
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:background="@android:color/transparent"
+        />
+
+    <ImageView
+        android:id="@+id/angle_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/main_page_button"
-        android:layout_gravity="left|bottom"
-        android:layout_marginBottom="@dimen/bottom_buttons_margin"/>
+        android:src="@drawable/text"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="48dp"
+        />
 </FrameLayout>

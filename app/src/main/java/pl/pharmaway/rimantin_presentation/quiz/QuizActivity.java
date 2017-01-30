@@ -67,10 +67,10 @@ public class QuizActivity extends BaseActivity {
 
     int findNextNontVisited(int current) {
         int next = current+1;
-        next= next%4;
-        while (next != visitedPages.length && visitedPages[next]) {
-            next++;
-        }
+        ;//next= next;
+//        while (next != visitedPages.length) {// && visitedPages[next]) {
+//            next++;
+//        }
         return next;
     }
 
@@ -101,27 +101,30 @@ public class QuizActivity extends BaseActivity {
     }
 
     void backToMainPage() {
-        getSupportFragmentManager().popBackStack("backStack", FragmentManager.POP_BACK_STACK_INCLUSIVE);
+
+        onBackPressed();
+        //getSupportFragmentManager().popBackStack("backStack", FragmentManager.POP_BACK_STACK_INCLUSIVE);
     }
 
     public void goToNextPage() {
-//        int next = findNextNontVisited(current);
-//        switch (next) {
-//            case 0:
-//                goToPage3();
-//                return;
-//            case 1:
-//                goToPage4();
-//                return;
-//            case 2:
-//                goToPage5();
-//                return;
-//            case 3:
-//                goToPage6();
-//                return;
-//        }
-
-        goToPage7();
+        int next = findNextNontVisited(current);
+        switch (next) {
+            case 0:
+                goToPage3();
+                return;
+            case 1:
+                goToPage4();
+                return;
+            case 2:
+                goToPage5();
+                return;
+            case 3:
+                goToPage6();
+                return;
+            default:
+                goToPage7();
+                return;
+        }
     }
 
     public void goToPage4() {
@@ -149,7 +152,7 @@ public class QuizActivity extends BaseActivity {
         current = 3;
         getSupportFragmentManager()
                 .beginTransaction()
-                .replace(R.id.container, new Page6Fragment())
+                .replace(R.id.container, new Page7Fragment())
                 .addToBackStack("backStack")
                 .commit();
     }
@@ -164,6 +167,9 @@ public class QuizActivity extends BaseActivity {
 
     @Override
     public void onBackPressed() {
+        current--;
+        if(current<-1)current=-1;
+
         for (Fragment fragment : getSupportFragmentManager().getFragments()) {
             if(fragment instanceof BaseFragment) {
                 BaseFragment baseFragment = (BaseFragment) fragment;
