@@ -18,12 +18,10 @@ public class BaseActivity extends AppCompatActivity implements SensorEventListen
     private static boolean FAKE = true;
     private Sensor senAccelerometer;
     SensorManager senSensorManager;
-    private AngleFrameLayout mAngleFrameLayout;
 
     @Override
     public void onPostCreate(Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
-        mAngleFrameLayout = (AngleFrameLayout) findViewById(R.id.angle_text);
 
         initSensor();
     }
@@ -104,10 +102,6 @@ public class BaseActivity extends AppCompatActivity implements SensorEventListen
     private void onAngleChanged(float v) {
         for (AngleChangedListener mAngleChangedListener : mAngleChangedListeners) {
             mAngleChangedListener.onAngleChanged(v);
-        }
-
-        if(mAngleFrameLayout!=null) {
-            mAngleFrameLayout.setAngle(v);
         }
     }
 
