@@ -3,66 +3,21 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_58f2f1e499143ec7d32a364c6572f46ae0cbf49d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.2.2\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b42cf2134829f715edfa2adaf0ee246631322dba">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.crashlytics.sdk.android-beta-1.2.2_7dce303ef8fc3a37b16f1a630239f7a37270503a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_b0f0c0bc59f28556869b4196bfc65b3e7bce9747.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_15f0ba0a8733878f7d95af78ce1dc3371b26e6f5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_2f6f513f3219a35db7751df6d4452d90ce11d78d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Radek\.gradle\caches\modules-2\files-2.1\com.google.dagger\dagger\2.8\55a1aa1cdcfd06b9950ca856e2bc2790e105146a\dagger-2.8.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="55a1aa1cdcfd06b9950ca856e2bc2790e105146a">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\dagger-2.8_f8d5c4f56fceb08d7ec77d625e11089311bc2842.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_ac55a7fc7a59fac7cf9d87c983f9155aaba7ebee.jar" />
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_3830b65235de28ce700eaad052d977a6669da0fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_cb7109c8ff05458b902689997c7f7a577905e796.jar" />
     </item>
     <item
         is-multidex="false"
@@ -71,16 +26,25 @@
         optimize="true"
         revision="25.0.2"
         sha1="f3ec1a93f2588c282143b2600e92cde3e7fed336">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\texturevideoview-1.1.1_7b0b37798b9eaa8021e78f8230b402040de284c8.jar" />
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\texturevideoview-1.1.1_7b0b37798b9eaa8021e78f8230b402040de284c8.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.4.0\jars\classes.jar"
+        jar="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.4.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="a07818a1ecabdb149998823429cce555af4b9cba">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.jakewharton-butterknife-8.4.0_18d870c2370b980c711776886d62b1eb16c2d87b.jar" />
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.jakewharton-butterknife-8.4.0_102b43538916c8566a99eb360498b83917c3c570.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_10cd953c940accdea77ebb67004f63b8f836c70e.jar" />
     </item>
     <item
         is-multidex="false"
@@ -89,43 +53,34 @@
         optimize="true"
         revision="25.0.2"
         sha1="3de922cdbf9bb3a6f72f6b6b3327cfb348cf445a">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\converter-gson-2.0.0-beta1_fb305bd7bb67f8cf9152e75b7c5fd9f271cb1f89.jar" />
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\converter-gson-2.0.0-beta1_fb305bd7bb67f8cf9152e75b7c5fd9f271cb1f89.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Radek\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jar="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_4818bc3ae5d34892940fd13f9f95534cb8511cb5.jar" />
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_70a5b6cb71ffc8bb8d169aec6103ba59d8fad0d4.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.10\jars\classes.jar"
+        jar="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="ed6b455e3dd7bbf1ff31f8df0b41e2f0d87f3ace">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.crashlytics.sdk.android-answers-1.3.10_858140d8ee0ade14d0254ea41c67d37af9011967.jar" />
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_4fb0aafa7a9d85e4dd4efd7751a6457131c90e8f.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Radek\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.5.0\4de2b4ed3445c37ec1720a7d214712e845a24636\okhttp-2.5.0.jar"
+        jar="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\okhttp-2.5.0_dcf5700bafee311c700ad34fa5535163185baf7d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.14\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7ff77725723167163d69439e3fd077bd0899babf">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.crashlytics.sdk.android-crashlytics-core-2.3.14_f85129031fce0e2ac74da5b05dac451eaba63ac9.jar" />
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_e100a06a1441d24b775712cc7c55f5f7549333e2.jar" />
     </item>
     <item
         is-multidex="false"
@@ -134,79 +89,25 @@
         optimize="true"
         revision="25.0.2"
         sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\gson-2.3.1_2bc703afe1f7add226af7352859b308464d6762d.jar" />
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\gson-2.3.1_2bc703afe1f7add226af7352859b308464d6762d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jar="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_9783114ab5618989821bb5033d6981297ec6d993.jar" />
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_37f79637a7a3732611adc67701406de12b25149a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Radek\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.4.0_2e8d13de1e2909cf5a582aa32661ee0df7540e09.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.6.5\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="02cc9f2e5899415add52bc716602b6b38e7eeb99">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.crashlytics.sdk.android-crashlytics-2.6.5_29873275e4b2ffd578494ba34853514ec6743922.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Radek\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\javax.inject-1_f67f47fc617d230b212f8df26980b29843cfa102.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_b9a49451eb2d5e186a1658083af7a38e63c00029.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.14\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a319fd4d548ba4cc9511561d37109ba922bfbf6a">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\io.fabric.sdk.android-fabric-1.3.14_bdc786507b5a689281881e4adc3bf4bdd447a760.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_f4904807e4cc4d86ca9d79a9825e330346170d6a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_b66cc3644adb7a2a62231544dc74c40eef7526fb.jar" />
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_5afd66d207f55f2336d052136e9a17f50e6cb401.jar" />
     </item>
     <item
         is-multidex="false"
@@ -215,16 +116,142 @@
         optimize="true"
         revision="25.0.2"
         sha1="dc6f78fc951c5bdeec92c14c6dd6adc9ce6195d0">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\cupboard-2.2.0_16cbc855779dca512a1c32e8c1811f7effe3fdf5.jar" />
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\cupboard-2.2.0_16cbc855779dca512a1c32e8c1811f7effe3fdf5.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jar="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_1db4239be020c7a297e4476cbdf6c63b86274eb1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_82b4dc1f011dd5368544489e8ad1e671fa89a619.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_7a0b9be491229cc45e31028ed179f4982f489d8a.jar" />
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_745fd126034d0a14f1d357faad778affacb03d96.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.14\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a319fd4d548ba4cc9511561d37109ba922bfbf6a">
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\io.fabric.sdk.android-fabric-1.3.14_bd936a3dc018e56468e418f8071644b196e38423.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_e01803958a0bd2923a2f4d36bfcd3f82057bbf46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.6.5\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02cc9f2e5899415add52bc716602b6b38e7eeb99">
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.crashlytics.sdk.android-crashlytics-2.6.5_405366938c86e58134b3510fd160e0b10dbcd278.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Radek\.gradle\caches\modules-2\files-2.1\com.google.dagger\dagger\2.8\55a1aa1cdcfd06b9950ca856e2bc2790e105146a\dagger-2.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="55a1aa1cdcfd06b9950ca856e2bc2790e105146a">
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\dagger-2.8_f8d5c4f56fceb08d7ec77d625e11089311bc2842.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_42b51cf938adee62ea3bee957417518b615afbd7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_0103f5a9837a2c152bbeb225b971dc1e035d102e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Radek\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.5.0\4de2b4ed3445c37ec1720a7d214712e845a24636\okhttp-2.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\okhttp-2.5.0_dcf5700bafee311c700ad34fa5535163185baf7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Radek\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.4.0_2e8d13de1e2909cf5a582aa32661ee0df7540e09.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Radek\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\javax.inject-1_f67f47fc617d230b212f8df26980b29843cfa102.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.2.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b42cf2134829f715edfa2adaf0ee246631322dba">
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.crashlytics.sdk.android-beta-1.2.2_a1fe381a316c248bb0a29104e95e3298babd6aaf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_fdd8db0a15f9d37a90c03bc338b0a393bb04dabc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_15603368fe178485c48adbbc94a4e145d67443f5.jar" />
     </item>
     <item
         is-multidex="false"
@@ -233,52 +260,25 @@
         optimize="true"
         revision="25.0.2"
         sha1="53b5be42d6cf719ac1431b9aa9a4d5ab78856148">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\retrofit-2.0.0-beta1_bfbfac644280b88cb233dd818319bf046191b8bd.jar" />
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\retrofit-2.0.0-beta1_bfbfac644280b88cb233dd818319bf046191b8bd.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.14\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_e67787ed85bd749c21fae4482d8aa765214b9694.jar" />
+        sha1="7ff77725723167163d69439e3fd077bd0899babf">
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.crashlytics.sdk.android-crashlytics-core-2.3.14_3aa05f81c0ca23e00538252988e0b3f02f0c2cbd.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jar="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.10\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_4cee03232fae145e39bf50e0f5b13d3840b8e3b5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_873435d5b2abaee1465c43fd33b5af3b84016736.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_72a450737e999e4e3ed5c37d560d9ab180e4960e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_30dc4aa6f1d621b9c73b0e29b20962b51299c2cb.jar" />
+        sha1="ed6b455e3dd7bbf1ff31f8df0b41e2f0d87f3ace">
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\com.crashlytics.sdk.android-answers-1.3.10_b7de9dbeafbc93f722b615fb09d4ddc76877b2e6.jar" />
     </item>
     <item
         is-multidex="false"
@@ -287,7 +287,7 @@
         optimize="true"
         revision="25.0.2"
         sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="C:\Users\Radek\Documents\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\okio-1.6.0_1bc29b93e17b5b073ce6521941bfaa5a22b0d3f5.jar" />
+        <dex dex="C:\Users\Radek\Documents\Pharmaway\Rimantin-presentation\app\build\intermediates\pre-dexed\debug\okio-1.6.0_1bc29b93e17b5b073ce6521941bfaa5a22b0d3f5.jar" />
     </item>
 
 </items>

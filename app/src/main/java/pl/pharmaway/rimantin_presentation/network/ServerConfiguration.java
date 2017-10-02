@@ -4,7 +4,7 @@ import pl.pharmaway.rimantin_presentation.Constants;
 
 public class ServerConfiguration {
     public String getBaseUrl() {
-        return Constants.API;
+        return Constants.API2;
     }
     public String getAddResult() {
         return "addResult.php";
