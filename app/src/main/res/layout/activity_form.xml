@@ -11,6 +11,14 @@
         android:scaleType="fitXY"
         android:src="@drawable/bgform" />
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/top_bar"
+        android:id="@+id/logo"
+        android:layout_gravity="top"/>
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -59,8 +67,7 @@
 
                     <LinearLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        >
+                        android:layout_height="wrap_content">
 
                         <TextView
                             android:id="@+id/miasto"
@@ -114,12 +121,12 @@
 
                             android:layout_margin="15dp"
                             android:background="@drawable/background_small"
+                            android:enabled="false"
                             android:gravity="center|left"
                             android:imeOptions="actionNext"
                             android:inputType="numberDecimal"
                             android:nextFocusForward="@+id/telefon"
                             android:paddingLeft="@dimen/form_text_padding"
-                            android:enabled="false"
                             android:singleLine="true"
                             android:textColor="@color/gray_text"
 
@@ -129,18 +136,18 @@
 
 
                 <FrameLayout
-                    android:layout_alignParentBottom="true"
-                    android:layout_below="@id/form_container"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@id/form_container">
 
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
                         android:adjustViewBounds="true"
-                        android:src="@drawable/botton_buttons"
                         android:scaleType="fitXY"
-                        android:layout_gravity="bottom"/>
+                        android:src="@drawable/botton_buttons" />
 
                     <View
                         android:id="@+id/dalej"
@@ -148,9 +155,8 @@
                         android:layout_height="58dp"
                         android:layout_gravity="right|bottom"
                         android:layout_marginBottom="@dimen/bottom_buttons_margin"
-                        android:foreground="?android:attr/selectableItemBackground"
                         android:clickable="true"
-                        />
+                        android:foreground="?android:attr/selectableItemBackground" />
 
                     <View
                         android:id="@+id/main_page"
@@ -158,19 +164,11 @@
                         android:layout_height="58dp"
                         android:layout_gravity="left|bottom"
                         android:layout_marginBottom="@dimen/bottom_buttons_margin"
-                        android:foreground="?android:attr/selectableItemBackground"
                         android:clickable="true"
-                         />
+                        android:foreground="?android:attr/selectableItemBackground" />
                 </FrameLayout>
 
             </RelativeLayout>
         </FrameLayout>
     </ScrollView>
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
-        android:src="@drawable/top_bar"
-        android:id="@+id/logo"
-        android:layout_gravity="top"/>
 </FrameLayout>

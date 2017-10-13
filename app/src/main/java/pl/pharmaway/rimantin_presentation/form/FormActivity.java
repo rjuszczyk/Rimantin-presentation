@@ -68,8 +68,9 @@ public class FormActivity extends AppCompatActivity implements
 
     @OnClick(R.id.main_page)
     void goToMainPage() {
-        EntryActivity.start(this);
-        finish();
+        onBackPressed();
+//        EntryActivity.start(this);
+//        finish();
     }
 
     @BindView(R.id.participantNumber)
